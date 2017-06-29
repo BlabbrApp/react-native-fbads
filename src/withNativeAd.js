@@ -55,7 +55,7 @@ export default (Component: Function) => class NativeAdWrapper extends React.Comp
    * Clear subscription when component goes off screen
    */
   componentWillUnmount() {
-    this.removeSubscription();
+//     this.removeSubscription();
   }
 
   render() {
